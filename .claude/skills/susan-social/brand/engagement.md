@@ -1,6 +1,6 @@
 # Engagement
 
-Filled in by `/susan-setup` (section 10).
+Filled in by `/susan-setup` (section 12).
 
 - **Engaging:** [fill in] (yes / no / later)
 - **Whose posts:** [fill in]

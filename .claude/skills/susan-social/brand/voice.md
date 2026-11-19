@@ -1,6 +1,6 @@
 # Voice
 
-Filled in by `/susan-setup` (section 4). Samples in `voice-samples/`.
+Filled in by `/susan-setup` (section 8). Samples in `voice-samples/`.
 
 ## One line
 [fill in] (example: "Direct, warm, specific, local. Name the trap, flip it, hand over the step.")

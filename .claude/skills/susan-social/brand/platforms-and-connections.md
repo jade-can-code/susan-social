@@ -1,6 +1,6 @@
 # Platforms and Connections
 
-Filled in by `/susan-setup` (sections 6 and 9).
+Filled in by `/susan-setup` (sections 7 and 11).
 
 ## Platforms
 | Platform | Handle | Account type | Active? | Job | Posts per week |

@@ -17,8 +17,10 @@ Run this yourself in the main conversation (agents can't ask the user questions)
 - **Ask for files instead of retyping:** brand guides, voice guides, strategy docs, past posts, testimonials, analytics screenshots. Read every file they give you.
 - **Dig one level deeper** on vague answers ("more engagement" → "engagement from whom, showing what?"). Don't interrogate; one follow-up is usually enough.
 - **Play back** a two-line summary at the end of each section and let them correct it.
-- **Save after every section** to `.claude/skills/susan-social/brand/setup-progress.md` (sections done, answers so far). On restart, read it and continue where they stopped.
+- **Write as you go.** After each section, fill in that section's brand file straight away and update `.claude/skills/susan-social/brand/setup-progress.md` (sections done). On restart, read it and continue where they stopped.
+- **Replace every `[fill in]`** with an answer, "none", or "see open-decisions #N". The weekly pipeline won't run while any `[fill in]` is left.
 - **Never invent answers.** Unknowns go to `brand/open-decisions.md`.
+- **Don't recommend paid tools before section 5 (Budget).** Until then, mention free options only.
 - `$ARGUMENTS` names a section: redo only that section, then update the affected files.
 
 ## The sections
@@ -43,57 +45,7 @@ Run this yourself in the main conversation (agents can't ask the user questions)
 - Where they spend time online, and which creators, podcasts or brands they already follow.
 - Any second audience (for example partners, corporate buyers).
 
-### 4. Voice → `brand/voice.md`
-- Do you have a brand voice guide or brand strategy? (Ask for the file.)
-- **Writing samples:** 10 to 20 things you've written that sound like you (captions, emails, voice-note transcripts). Save them to `brand/voice-samples/`. This matters more than any adjective.
-- How should you sound on a few sliders (formal ↔ casual, gentle ↔ blunt, serious ↔ funny, calm ↔ high-energy)?
-- Words and phrases you love; words you'd never use; competitors whose tone you want to avoid.
-- Mechanics: emoji (none / a few / lots), hashtags, spelling, punctuation preferences (for example "no em dashes").
-
-### 5. Brand visuals and design → `brand/brand-kit.md`
-- Do you have a brand guide? (Ask for the file.) Colors (hex codes), fonts, logo versions.
-- **Canva:** do you use Canva? Free or paid? Is the Canva connector added to Claude? Do you have a Brand Kit and templates in Canva?
-- Photos: do you have real photos of yourself, your work, your space, your products? Roughly how many? Are you willing to do a photo session?
-- Formats and looks you love (send examples), and looks you hate.
-- AI imagery: allowed for backgrounds or objects? (Susan never makes AI images of real people.)
-
-### 6. Channels → `brand/platforms-and-connections.md`
-- Which platforms are you on now, with handles? Which are active, which are dormant?
-- **How many platforms do you want to post on?** Advise honestly: 2 or 3 done consistently beat 6 done badly. Recommend which to start with based on where their ideal client is (section 3) and the formats they can make (section 7).
-- For each chosen platform: is it a business/creator/professional account? Who has the login?
-- The job of each platform (for example: Instagram for trust and DMs, LinkedIn for authority, Facebook groups for community, TikTok for reach, YouTube for search, Pinterest for evergreen traffic, Threads or X for conversation).
-
-### 7. Posting and content → `brand/content-pillars.md` and `brand/rhythm.md`
-- **How many times a week** do you want to post, per platform? (Advise what's sustainable; consistency beats volume.)
-- **Which types of posts:** reels/short video, carousels, single graphics, text posts, stories, long-form video, live, email newsletter tie-ins.
-- On camera: are you comfortable filming yourself? How much filming time a week can you give (for example one 30-minute session)?
-- Main topics you want to be known for, and topics to avoid. Any recurring series ideas.
-- Content mix preference: how much teaching, how much personal or relatable, how much selling. (Suggest 50 / 30 / 20 as a starting point.)
-
-### 8. Approval and weekly rhythm → `brand/rhythm.md`
-- Your timezone. Which days you work on social media, and days that must stay free.
-- **Approval day:** which day do you want to approve the next week's posts? (Default Wednesday.)
-- Report day and time (default Friday 09:00, report-only).
-- Engagement days, if engaging (default Monday, Tuesday, Thursday).
-- Who approves: you alone, or someone else too?
-
-### 9. Scheduling and connections → `brand/platforms-and-connections.md`
-- Do you use a scheduler today (Buffer, Meta Business Suite, Later, Hootsuite, Metricool, native app scheduling, none)?
-- Then **write the personal connection guide** (see "After the interview").
-
-### 10. Engagement → `brand/engagement.md`
-- Do you want help commenting on other people's posts to grow your name? (Yes / no / later.)
-- If yes: **whose posts?** Creators in your niche, your ideal clients' favorite accounts, peers, potential partners, local businesses? Which region or country? What size (peers / mid-size / big names)?
-- Anyone to avoid (direct competitors, tones that clash, sensitive topics)?
-- How many posts per platform per run (default 3 to 5), on which days, and how much time you'll give it.
-- OK to use small paid lookups to find fresh posts more reliably? Budget per run? (Default: free methods only.)
-
-### 11. Proof and boundaries → `brand/proof.md`
-- Testimonials, client results, case studies, numbers, press, credentials, with permission to use them publicly. (Ask for files or links.)
-- Claims you must never make (income claims, medical claims, guarantees). Is your industry regulated (finance, health, legal)?
-- Disclosure needs (affiliate links, sponsored posts).
-
-### 12. What success looks like → `brand/goals-and-success.md`
+### 4. What success looks like → `brand/goals-and-success.md`
 **Spend real time here.** Ask, in their words:
 - What would make the next 90 days a win? And the next 12 months?
 - What do you want social media to *do* for the business: leads, sales, booked calls, email sign-ups, authority, community, partnerships, speaking invitations, time back?
@@ -103,13 +55,69 @@ Run this yourself in the main conversation (agents can't ask the user questions)
 - How much time per week can you realistically give this?
 Then propose 3 to 5 measurable KPIs with targets, explain why, and let them adjust. Record their own words too.
 
-### 13. Budget and tools
-- What are you happy to pay for, if anything (scheduler, Canva plan, paid lookups)? Record limits in `brand/goals-and-success.md` under "Budget". Never recommend a paid tool beyond this.
+### 5. Budget and tools
+- What are you happy to pay for, if anything (scheduler, Canva plan, paid lookups)? Record limits in `brand/goals-and-success.md` under "Budget". From here on, never recommend a paid tool beyond this.
+
+### 6. Posting and content → `brand/content-pillars.md` and `brand/rhythm.md`
+- **How many posts a week in total** can you sustain? (Advise what's realistic; consistency beats volume. It's split across platforms in the next section.)
+- **Which types of posts:** reels/short video, carousels, single graphics, text posts, stories, long-form video, live, email newsletter tie-ins.
+- On camera: are you comfortable filming yourself? How much filming time a week can you give (for example one 30-minute session)?
+- Main topics you want to be known for, and topics to avoid. Any recurring series ideas.
+- Content mix preference: how much teaching, how much personal or relatable, how much selling. (Suggest 50 / 30 / 20 as a starting point.)
+
+### 7. Channels → `brand/platforms-and-connections.md`
+- Which platforms are you on now, with handles? Which are active, which are dormant?
+- **How many platforms do you want to post on?** Advise honestly: 2 or 3 done consistently beat 6 done badly. Recommend which to start with based on where their ideal client is (section 3), their goals (section 4) and the formats and filming time they can manage (section 6).
+- For each chosen platform: is it a business/creator/professional account? Who has the login? How many of the weekly posts go there?
+- The job of each platform (for example: Instagram for trust and DMs, LinkedIn for authority, Facebook groups for community, TikTok for reach, YouTube for search, Pinterest for evergreen traffic, Threads or X for conversation).
+
+### 8. Voice → `brand/voice.md`
+- Do you have a brand voice guide or brand strategy? (Ask for the file.)
+- **Writing samples:** 10 to 20 things you've written that sound like you (captions, emails, voice-note transcripts). Save them to `brand/voice-samples/`. This matters more than any adjective.
+- How should you sound on a few sliders (formal ↔ casual, gentle ↔ blunt, serious ↔ funny, calm ↔ high-energy)?
+- Words and phrases you love; words you'd never use; competitors whose tone you want to avoid.
+- Mechanics: emoji (none / a few / lots), hashtags, spelling, punctuation preferences (for example "no em dashes").
+- Calls to action you like and ones that feel too pushy. Should the voice shift per platform (for example more polished on LinkedIn, more playful on TikTok)?
+- From the samples, write the one-line voice summary and 3 to 5 signature patterns, and check them with the owner.
+
+### 9. Brand visuals and design → `brand/brand-kit.md`
+- Do you have a brand guide? (Ask for the file.) Colors (hex codes), fonts, logo versions.
+- **Canva:** do you use Canva? Free or paid? Is the Canva connector added to Claude? Do you have a Brand Kit and templates in Canva?
+- Photos: do you have real photos of yourself, your work, your space, your products? Roughly how many? Are you willing to do a photo session?
+- Formats and looks you love (send examples), and looks you hate.
+- AI imagery: allowed for backgrounds or objects? (Susan never makes AI images of real people.)
+
+### 10. Approval and weekly rhythm → `brand/rhythm.md`
+- Your timezone. Which days you work on social media, and days that must stay free.
+- **Approval day:** which day do you want to approve the next week's posts? (Default Wednesday.)
+- Report day and time (default Friday 09:00, report-only).
+- Engagement days, if engaging (default Monday, Tuesday, Thursday).
+- Who approves: you alone, or someone else too?
+- Preferred posting times, if any. (Explain that consistency matters far more than the exact time; Susan learns the best times from results.)
+
+### 11. Scheduling and connections → `brand/platforms-and-connections.md`
+- Do you use a scheduler today (Buffer, Meta Business Suite, Later, Hootsuite, Metricool, native app scheduling, none)?
+- Can Claude read your insights anywhere (a connected analytics or social account), or will you share screenshots or exports?
+- Note which posts will need posting inside the app itself (trending sounds, platforms the scheduler can't reach).
+- Then **write the personal connection guide** (see "After the interview").
+
+### 12. Engagement → `brand/engagement.md`
+- Do you want help commenting on other people's posts to grow your name? (Yes / no / later.)
+- If yes: **whose posts?** Creators in your niche, your ideal clients' favorite accounts, peers, potential partners, local businesses? Which region or country? What size (peers / mid-size / big names)?
+- Which platforms to engage on (usually the same as the ones they post on).
+- Anyone to avoid (direct competitors, tones that clash, sensitive topics)?
+- How many posts per platform per run (default 3 to 5), on which days, and how much time you'll give it.
+- OK to use small paid lookups to find fresh posts more reliably? Budget per run? (Default: free methods only.)
+
+### 13. Proof and boundaries → `brand/proof.md`
+- Testimonials, client results, case studies, numbers, press, credentials, with permission to use them publicly. (Ask for files or links.)
+- Claims you must never make (income claims, medical claims, guarantees). Is your industry regulated (finance, health, legal)?
+- Disclosure needs (affiliate links, sponsored posts).
 
 ## After the interview
 
-1. **Write every brand file** from the templates in `.claude/skills/susan-social/brand/`, replacing all `[fill in]` markers. Leave nothing invented; unknowns go to `open-decisions.md`.
-2. **Play back a one-screen summary** (business, audience, voice in one line, channels, posting plan, rhythm, KPIs) and fix anything they correct.
+1. **Clear the example** from `lessons.md` if one is there, and confirm every section's brand file was written. Leave nothing invented; unknowns go to `open-decisions.md`.
+2. **Check no `[fill in]` is left** in any brand file, then **play back a one-screen summary** (business, audience, voice in one line, channels, posting plan, rhythm, KPIs) and fix anything they correct.
 3. **Write `content/setup/connection-guide.md`:** for each chosen platform and tool, in plain steps, how to connect it and what Susan can and can't do with it. Use the "Connection notes" in `.claude/skills/susan-social/SKILL.md`, and tell them to check the current steps in each service, because connectors change.
 4. **Recommend a starting plan:** platforms, posts per week, formats, the first focus offer, and the first three things to do (for example: build 4 Canva templates, collect 30 photos, connect the scheduler).
 5. **Offer scheduled runs** matching `rhythm.md` (approval-day pipeline, report, engagement days), and explain they only run while the Claude app is open on their computer.

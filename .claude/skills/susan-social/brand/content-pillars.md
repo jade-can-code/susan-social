@@ -1,6 +1,6 @@
 # Content Pillars
 
-Filled in by `/susan-setup` (section 7).
+Filled in by `/susan-setup` (section 6).
 
 ## Mix
 [fill in] (suggested start: 50% teaching, 30% relatable, 20% selling)

@@ -1,6 +1,6 @@
 # Goals and Success
 
-Filled in by `/susan-setup` (sections 12 and 13).
+Filled in by `/susan-setup` (sections 4 and 5).
 
 ## In their own words
 - A great 90 days looks like: [fill in]

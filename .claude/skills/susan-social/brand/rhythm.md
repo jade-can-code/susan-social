@@ -1,6 +1,6 @@
 # Weekly Rhythm
 
-Filled in by `/susan-setup` (section 8).
+Filled in by `/susan-setup` (section 10).
 
 - **Timezone:** [fill in]
 - **Work days for social media:** [fill in]

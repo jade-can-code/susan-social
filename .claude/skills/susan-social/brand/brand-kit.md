@@ -1,6 +1,6 @@
 # Brand Kit (visual)
 
-Filled in by `/susan-setup` (section 5).
+Filled in by `/susan-setup` (section 9).
 
 ## Colors
 | Name | Hex | Use |
