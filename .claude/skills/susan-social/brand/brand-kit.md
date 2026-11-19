@@ -1,6 +1,6 @@
 # Brand Kit (visual)
 
-Filled in by `/susan-setup` (section 9).
+Filled in by `/susan-setup` (Brand visuals and design).
 
 ## Colors
 | Name | Hex | Use |
@@ -30,5 +30,5 @@ Filled in by `/susan-setup` (section 9).
 - AI imagery allowed for: [fill in] (never real people)
 
 ## Loves / hates
-- Loves: [fill in]
+- Loves: [fill in] (example files in `visual-examples/`, if any)
 - Hates: [fill in]

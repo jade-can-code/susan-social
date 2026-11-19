@@ -1,11 +1,11 @@
 # Platforms and Connections
 
-Filled in by `/susan-setup` (sections 7 and 11).
+Filled in by `/susan-setup` (Channels, and Scheduling and connections).
 
 ## Platforms
-| Platform | Handle | Account type | Active? | Job | Posts per week |
-|---|---|---|---|---|---|
-| [fill in] | | | | | |
+| Platform | Handle | Account type | Login held by | Active? | Job | Posts per week |
+|---|---|---|---|---|---|---|
+| [fill in] | | | | | | |
 
 ## Scheduler
 - Tool: [fill in] · Plan: [fill in]

@@ -1,20 +1,23 @@
 # Offers and Funnel
 
-Filled in by `/susan-setup` (section 2).
+Filled in by `/susan-setup` (Offers and funnel).
 
 ## Offers
-| Offer | Type | Price | Link | For whom | How people buy |
-|---|---|---|---|---|---|
-| [fill in] | | | | | |
+| Offer | Type | Who pays | Price | Price shown publicly? | Link | For whom | How people buy |
+|---|---|---|---|---|---|---|---|
+| [fill in] | | | | | | | |
 
 ## Free lead capture
-| Freebie | Link | Comment keyword (if any) |
-|---|---|---|
-| [fill in] | | |
+| Freebie | Link | Delivered by (email, DM, WhatsApp...) | Comment keyword (if any) |
+|---|---|---|---|
+| [fill in] | | | |
 
 ## Focus offer
 - **Current focus:** [fill in] · **Until:** [fill in]
 - **Launch dates / windows / peaks:** [fill in]
+
+## Guarantee
+- **Exact public wording:** [fill in] ("none" if no guarantee; agents never use "guaranteed" beyond this wording)
 
 ## Path from follower to customer
 [fill in] (example: reel → profile → free checklist → email list → strategy call)

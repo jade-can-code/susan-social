@@ -1,6 +1,6 @@
 # Goals and Success
 
-Filled in by `/susan-setup` (sections 4 and 5).
+Filled in by `/susan-setup` (What success looks like, and Budget).
 
 ## In their own words
 - A great 90 days looks like: [fill in]
@@ -10,9 +10,9 @@ Filled in by `/susan-setup` (sections 4 and 5).
 - What would make them stop using Susan: [fill in]
 
 ## KPIs
-| KPI | Why it matters | Baseline | 90-day target |
-|---|---|---|---|
-| [fill in] | | | |
+| KPI | Why it matters | Baseline | Baseline confirmed or estimate? | 90-day target |
+|---|---|---|---|---|
+| [fill in] | | | | |
 
 Numbers that don't matter to them: [fill in]
 

@@ -21,7 +21,7 @@ Built by [The Vine System](https://thevinesystem.com). MIT licensed.
 
 | Command | When |
 |---|---|
-| `/susan-setup` | Once, at the start. The interview. Re-run any section later |
+| `/susan-setup` | Once, at the start. The interview (quick or full). Re-run or deepen any section later |
 | `/susan-week` | Your approval day. Builds next week and stops for your approval |
 | `/susan-week approve` | After you approve. Schedules the approved posts |
 | `/susan-review` | Your report day. Report-only |
@@ -43,7 +43,7 @@ You need [Claude Code](https://claude.com/claude-code) (desktop app or terminal)
 1. **Make your own private copy.** On GitHub, click **Use this template → Create a new repository**, and set it to **Private**. Your brand files will live there, so don't make your filled-in copy public.
 2. **Download it** to your computer (GitHub Desktop, or `git clone`).
 3. **Open that folder in Claude Code.**
-4. **Type `/susan-setup`** and answer the interview. It takes 30 to 45 minutes, saves as you go, and you can stop and pick up later.
+4. **Type `/susan-setup`** and answer the interview. Choose quick setup (about 15 minutes, with sensible defaults you can change later) or full setup (about 45 minutes). It saves as you go, and you can stop and pick up later.
 
 When the interview finishes, Susan writes your brand files, gives you a personal guide for connecting your channels, and suggests a weekly rhythm.
 
